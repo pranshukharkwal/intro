@@ -27,8 +27,8 @@
     </section>
 
     <div id="eventDetails" class="center">
-        <h2><p style="margin-top: 60px; margin-bottom: 40px; color:darkcyan">Event Details</p></h2>
-        <div class="event">
+        <h1><p style="margin-top: 60px; margin-bottom: 40px; color:darkcyan">Event Details</p></h1>
+        <div class="event container jumbotron" style="max-width: 800px;">
         <p>
             <strong>DATE: </strong>13th September 2020<br>
             <strong>TIME: </strong> 5:00 PM onwards<br>
@@ -55,7 +55,7 @@
     </div>
 
     <div id="gameflow" class="center">
-        <h2><p style="margin-top: 50px; margin-bottom: 40px; color:darkcyan">Game Flow</p></h2>
+        <h1><p style="margin-top: 50px; margin-bottom: 40px; color:darkcyan">Game Flow</p></h1>
         <div class="quiz-round">
             <h4 style="color:darkcyan">1. Quiz Round</h4>
             <p><strong>No. of Questions: </strong>12<br>
@@ -77,7 +77,7 @@
             </p>
         </div>
 
-        <h4 style="margin-top:40px; margin-bottom: 20px; text-align:left ; color:darkcyan">2. Prediction and Priority Rounds</h4>
+        <h4 style="margin-top:40px; margin-bottom: 20px; text-align:left ; color:darkcyan">2. Prediction and IPO Rounds</h4>
         <div class="prediction-ipo row">
             <div class="prediction col-sm-6">
                 <h5>Prediction round (For quiz qualified teams)</h5>
@@ -94,6 +94,9 @@
                 </ul>
                 <p class="italic-text"><code>Think, strategise, and predict your 7 wisely!
                         </code>
+
+                 <img id="image2" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/c402cf40757809.578c7ecde7ecd.jpg"
+                 style="width:100%; margin-top: 80px">       
                 </p>
 
             </div>
@@ -205,6 +208,11 @@
 </body>
 <style>
 
+    @media(max-width: 600px) {
+        #image2 {
+            display: none;
+        }
+    }
 
     #main-image:before {
         content: "";

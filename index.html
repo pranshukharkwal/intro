@@ -1,132 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>IPL Auction - IIT Mandi</title>
 </head>
+
 <body>
-    <section id="main-image" style="width: 100%; height: 100vh; background: url(https://raw.githubusercontent.com/AuctionGame/AuctionGame.github.io/1ec542739363093fe2f83213fa92c174461df12f/main.jpg) top center; background-size: cover; position: relative;">
+    <section id="main-image"
+        style="width: 100%; height: 100vh; background: url(https://raw.githubusercontent.com/AuctionGame/AuctionGame.github.io/1ec542739363093fe2f83213fa92c174461df12f/main.jpg) top center; background-size: cover; position: relative;">
         <div class="main-container">
             <h1 class="white-heading">IPL Auction</h1>
             <h3 class="white-heading">Presented by E-Cell IIT Mandi</h3>
-            <a href="#rules" class="button">Rules</a>
+
             <a href="#register" class="button">Register</a>
             <a href="#gameflow" class="button">Game flow</a>
+            <a href="#eventDetails" class="button">Event Details</a>
         </div>
     </section>
 
+    <div id="eventDetails" class="center">
+        <h2><p style="margin-top: 60px; margin-bottom: 40px; color:darkcyan">Event Details</p></h2>
+        <div class="event">
+        <p>
+            <strong>DATE: </strong>13th September 2020<br>
+            <strong>TIME: </strong> 5:00 PM onwards<br>
+            <strong>TEAMS: </strong>4 members/team<br>
+            <strong>Rounds:</strong>
+           
+        <ul>
+            <li><strong>Quiz Round(elimination round): </strong>The top 8 teams will be selected for the final round.</li>
+            <li><strong>Prediction Round: </strong>Each qualified team has to predict 7 players for their dream team.</li>
+            <li><strong>IPO Round: </strong> Didn’t qualify the quiz round? Don’t worry, this round
+            is for you.</li>
+            <li><strong>Auction Round: </strong>The Top 8 teams will start with the bidding process.</li>
+        </ul>
+        <strong>Winning Prizes: </strong> 
+        <ul>
+            <li><strong>Auction Round: </strong> 1<sup>st</sup> position – Rs. 1200/-<br>
+                <div style="margin-left: 123px;">2<sup>nd</sup> position – Rs. 800/-<br>
+                3<sup>rd</sup> position – Rs. 500/-<br></div>
+            <li><strong>IPO Round: </strong>  1<sup>st</sup> position – Rs 500/-</li>
+        </ul>
+        </p>
+        </div>
+
+    </div>
+
     <div id="gameflow" class="center">
-        <h2>Game Flow</h2>
-            <div class="quiz-round">
-                <h4 style="color:darkcyan">1. Quiz Round</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis doloremque culpa mollitia laborum ducimus accusamus iusto debitis, aliquid recusandae suscipit dolorum qui ipsum harum, repudiandae modi omnis. Est, nihil voluptates. </p>
+        <h2><p style="margin-top: 50px; margin-bottom: 40px; color:darkcyan">Game Flow</p></h2>
+        <div class="quiz-round">
+            <h4 style="color:darkcyan">1. Quiz Round</h4>
+            <p><strong>No. of Questions: </strong>12<br>
+                <strong>Total Marks: </strong> 50<br>
+               <strong>Time duration: </strong> 5:00 PM – 5:30 PM i.e. 30 minutes(you need to strictly follow the given time window) <br>
+                <strong>Played by: </strong> All registered teams<br></p>
+            <ul>
+                <li>All questions will be related to IPL in some way or the other.</li>
+                <li>The top 8 teams will qualify for prediction and auction rounds. Disqualified teams will play the IPO
+                    round.</li>
+                <li> In case of a draw in the quiz round, the winner will be decided by <strong> backward marking</strong>. (Use your
+                    entire 30 minutes!)</li>
+            </ul>
+            <p class="italic-text">
+                The quiz solutions and the list of players will be available right after the quiz round along with a 30
+                minutes break. This is the time to strategise for the Prediction round and IPO round. </br>
+                The final scorecard will be calculated and shared, and IPO and prediction rounds will start
+                simultaneously.
+            </p>
+        </div>
+
+        <h4 style="margin-top:40px; margin-bottom: 20px; text-align:left ; color:darkcyan">2. Prediction and Priority Rounds</h4>
+        <div class="prediction-ipo row">
+            <div class="prediction col-sm-6">
+                <h5>Prediction round (For quiz qualified teams)</h5>
+                <p><strong>Time duration: </strong> 6:00 PM – 6:20 PM<br>
+                    <strong>Played by: </strong> Top 8 qualified teams <br>
+                    Team of 7 to be predicted by each qualified team before the auction. First 10 minutes for predicting
+                    and next 10 minutes for analysing predicted players of other teams.</p>
+                <ul>
+                    <li>If a team manages to buy any of their predicted players,<strong> 10% increase </strong> in that player score.</li>
+                    <li>If a team is unable to buy any of their predicted players,<strong> 15% decrease </strong> from the overall team
+                        score.</li>
+                    <li>If a team is able to buy all their predicted players,<strong> 15% increase </strong> in the overall team score
+                        i.e. 15% increase in every player score rather than 10%.</li>
+                </ul>
+                <p class="italic-text"><code>Think, strategise, and predict your 7 wisely!
+                        </code>
+                </p>
+
             </div>
 
-            <h4 style="text-align:left ; color:darkcyan">2. Prediction and Priority Rounds</h4>
-            <div class="prediction-ipo row">
-                <div class="prediction col-6">
-                    <h5>Prediction round (For quiz qualified teams)</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis doloremque culpa mollitia laborum ducimus accusamus iusto debitis, aliquid recusandae suscipit dolorum qui ipsum harum, repudiandae modi omnis. Est, nihil voluptates. </p>            
-                </div>
+            <div class="ipo col-sm-6">
+                <h5>IPO round (For quiz unqualified teams)</h5>
+                <p><strong>Time duration: </strong> 6:00 PM – 6:20 PM<br>
+                    <strong>Played by: </strong> Disqualified teams<br>
+                    Every team will be given some initial virtual money. And each player will be given a fixed share
+                    price of worth<strong> 5.3 Lacs</strong>.<br>
+                    The motive of this round is to create a priority list of the players. This should depend on your
+                    analysis of which players might get sold above the share price to gain profit. The players will be
+                    divided into 3 categories and you must choose:
+                </p>
+                <ul>
+                    <li>2 players from category 1</li>
+                    <li>3 players from category 2</li>
+                    <li>2 players from category 3</li>
+                </ul>
+                <p> The team with the highest net worth at the end of the auction will be the winner of this round.
+                    <br>
+                    Distribution of shares: <br>
+                    Disqualified teams will have to submit 7 players in a priority order (1 being the highest priority
+                    and 7 being the lowest). During the Auction Round, the shares will be sold using the following
+                    rules: <br>
+                <ul>
+                    <li>If only a single team is willing to buy an asset, then 100% shares of that player will be sold
+                        to them at its share price.</li>
+                    <li>If multiple teams are willing to buy an asset, then only the team which has given higher
+                        priority to the asset in their priority list will be sold 100% shares of the asset.</li>
+                    <li>If multiple teams are willing to buy an asset and have it at the same priority rank,
+                        equal shares of the asset will be sold to them at its share price.
+                    </li>
+                </ul>
+                </p>
+                <p class="italic-text">(The above rules are similar to that of the IPO round of Stonks, KPL) <br>
 
-                <div class="ipo col-6">
-                    <h5>IPO round (For quiz unqualified teams)</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis doloremque culpa mollitia laborum ducimus accusamus iusto debitis, aliquid recusandae suscipit dolorum qui ipsum harum, repudiandae modi omnis. Est, nihil voluptates. </p>     
-                </div>       
-            </div>
+                    <code>Note: </code> A team buying a player in the auction and a team owning its 100% share should not be confused.
+                    Only the sale price matters as both rounds are running independently.
 
-            <div class="auction">
-                <h4 style="color:darkcyan">3. Auction Round</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis doloremque culpa mollitia laborum ducimus accusamus iusto debitis, aliquid recusandae suscipit dolorum qui ipsum harum, repudiandae modi omnis. Est, nihil voluptates. </p>
+                    Analyse the players and prioritise the order wisely to gain maximum profit!
+                </p>
+
+                </p>
+
             </div>
         </div>
 
-    <div id="rules">   
-        <h2>Rules </h2>
-        <ul style="list-style: disc; text-align:left">
-            <li>Rule 1</li>
-            <li>Rule 2</li>
-            <li>Rule 3</li>
-        </ul>
+        <div class="auction">
+            <h4 style="color:darkcyan">3. Auction Round</h4>
+            <p><strong>Time duration: </strong> 6:30 onwards<br>
+                <strong>Played by: </strong> Top 8 teams <br>
+                <strong>No. of IPL players: </strong> 60 (Including both Indian and Foreign)<br></p>
+            <p><strong>Team details:</strong><br>
+            <ul>
+                <li><strong>No. of players: </strong> Min - 7, Max - 8
+                </li>
+                <li><strong>Team distribution: </strong> Min 4 Batsmen, 3 Bowlers and 1 Wicket Keeper</li>
+                <li><strong>Nationality: </strong> Min 4 Indian Players and 1 foreign player should be there in a team.
+                </li>
+                <li><strong>Team budget: </strong> Rs 40 Lacs.</li>
+            </ul>
+             <i>Manage your wallet well and make full use of the prediction round. </i><br>
+            <ul>
+                <li>Bidding process will be done on the chat box of Google Meet.</li>
+                <li>The minimum raise in the bid will be 0.5 Lacs till 10 Lacs and 1 Lac after that.</li>
+                <li>Keeping the unstable internet connections in mind, a player will only be sold once all other team
+                    leaders write ‘out’. So no need to worry about net issues.
+                </li>
+                <li>Only the team leader will bid and rest team members and other people can witness the bidding wars
+                    and real time team updates on the website.
+                </li>
+                <li>The normalized scores of every player has been calculated beforehand using stats of previous 3 year
+                    performances(2019, 2018, 2017) and some other important factors (whether a player is a captain,
+                    their utility, everything has been taken care of). The normalised scores won’t be shared(ofc).
+                </li>
+                <li>In case a team buys 8 players, only the best 7 players will be considered. If a team is unable to
+                    buy 7 players, it will automatically lose the auction.</li>
+            </ul>
+
+            </p>
+
+            <p class="italic-text">
+                <code>IMPORTANT :</code> The website link will be provided 10 minutes before the quiz round starts. A
+                Google meet link will be shared after the prediction round and the IPO round for the auction round.
+                Keep your secret passcode (which you will share through the Google form) safe and use it for entering
+                the various rounds. Results will be posted ASAP. Hope to see you in large numbers!
+
+            </p>
+        </div>
     </div>
 
     <div id="register">
-        <h2>Register</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam fugiat obcaecati quam doloremque iste repellendus accusamus non. Illum consequatur laboriosam, eaque magni officia maiores dolores, nemo eos, voluptatibus suscipit earum. </p>
-        <iframe style="overflow:auto; height:80vh; width:80vw; margin:0 auto; display:block" align="middle" src="https://docs.google.com/forms/d/e/1FAIpQLScEOq55eQtb9tFRIrZGGz9TMo08HNxm9slWAq_LrL8Om743ZQ/viewform" width="100%" height="1749" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        <h2 style="color: darkcyan;">Register</h2>
+        <p>Fill the google form below with your institute Email ID</p>
+        <iframe style="overflow:auto; height:80vh; width:80vw; margin:0 auto; display:block" align="middle"
+            src="https://docs.google.com/forms/d/e/1FAIpQLScEOq55eQtb9tFRIrZGGz9TMo08HNxm9slWAq_LrL8Om743ZQ/viewform"
+            width="100%" height="1749" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </div>
 
-    <footer class="footer" style="padding-top: 50px; padding-bottom: 50px; background: grey; color: white; margin-top:40px">
+    <footer class="footer"
+        style="padding-top: 50px; padding-bottom: 50px; background: grey; color: white; margin-top:40px">
         <div id="footer" class="container">
-          <h2>Have any queries?</h2>
-          <h4>Contact us at</h4>
-          <h6>+91-8058041116 / +91-9871826106</h6>
+            <h2>Have any queries?</h2>
+            <h4>Contact us at</h4>
+            <h6>+91-8058041116 / +91-9871826106</h6>
         </div>
     </footer>
 </body>
 <style>
+
+
     #main-image:before {
-    content: "";
-    background: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0; 
+        content: "";
+        background: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
     }
 
     #main-image .main-container {
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
     }
 
-    .white-heading{
-        color:white
+    .white-heading {
+        color: white
     }
 
-    .button{
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 28px;
-    border-radius: 50px;
-    transition: 0.5s;
-    margin: 10px;
-    border: 2px solid #fff;
-    color: #fff;
+    .button {
+        font-family: "Poppins", sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 8px 28px;
+        border-radius: 50px;
+        transition: 0.5s;
+        margin: 10px;
+        border: 2px solid #fff;
+        color: #fff;
     }
 
-    #gameflow , #rules , #register{
-        width:80%;
-        margin:auto;
-        margin-top:20px;
-        text-align:center
+    #gameflow,
+    #rules,
+    #register,
+    #eventDetails {
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center
     }
 
-    .quiz-round , .auction , .prediction-ipo{
-        text-align:left
+    .quiz-round,
+    .auction,
+    .prediction-ipo,
+    .event {
+        text-align: left
     }
 
-    #footer{
-        text-align:center;
+    #footer {
+        text-align: center;
     }
-}
+
+    .italic-text {
+        font-size: medium;
+        font-style: italic;
+    }
+    }
 </style>
-</html> 
+
+</html>

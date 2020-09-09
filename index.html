@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>IPL Auction - IIT Mandi</title>
+</head>
+<body>
+    <section id="main-image" style="width: 100%; height: 100vh; background: url(main.jpg) top center; background-size: cover; position: relative;">
+        <div class="main-container">
+            <h1 class="white-heading">IPL Auction</h1>
+            <h3 class="white-heading">Presented by E-Cell IIT Mandi</h3>
+            <a href="#rules" class="button">Rules</a>
+            <a href="#register" class="button">Register</a>
+            <a href="#gameflow" class="button">Game flow</a>
+        </div>
+    </section>
+
+    <div id="gameflow" class="center">
+        <h2>Game Flow</h2>
+            <div class="quiz-round">
+                <h4 style="color:darkcyan">1. Quiz Round</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis doloremque culpa mollitia laborum ducimus accusamus iusto debitis, aliquid recusandae suscipit dolorum qui ipsum harum, repudiandae modi omnis. Est, nihil voluptates. </p>
+            </div>
+
+            <h4 style="text-align:left ; color:darkcyan">2. Prediction and Priority Rounds</h4>
+            <div class="prediction-ipo row">
+                <div class="prediction col-6">
+                    <h5>Prediction round (For quiz qualified teams)</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis doloremque culpa mollitia laborum ducimus accusamus iusto debitis, aliquid recusandae suscipit dolorum qui ipsum harum, repudiandae modi omnis. Est, nihil voluptates. </p>            
+                </div>
+
+                <div class="ipo col-6">
+                    <h5>IPO round (For quiz unqualified teams)</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis doloremque culpa mollitia laborum ducimus accusamus iusto debitis, aliquid recusandae suscipit dolorum qui ipsum harum, repudiandae modi omnis. Est, nihil voluptates. </p>     
+                </div>       
+            </div>
+
+            <div class="auction">
+                <h4 style="color:darkcyan">3. Auction Round</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis doloremque culpa mollitia laborum ducimus accusamus iusto debitis, aliquid recusandae suscipit dolorum qui ipsum harum, repudiandae modi omnis. Est, nihil voluptates. </p>
+            </div>
+        </div>
+
+    <div id="rules">   
+        <h2>Rules</h2>
+        <ul style="list-style: disc; text-align:left">
+            <li>Rule 1</li>
+            <li>Rule 2</li>
+            <li>Rule 3</li>
+        </ul>
+    </div>
+
+    <div id="register">
+        <h2>Register</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam fugiat obcaecati quam doloremque iste repellendus accusamus non. Illum consequatur laboriosam, eaque magni officia maiores dolores, nemo eos, voluptatibus suscipit earum. </p>
+        <iframe style="overflow:auto; height:80vh; width:80vw; margin:0 auto; display:block" align="middle" src="https://docs.google.com/forms/d/e/1FAIpQLScEOq55eQtb9tFRIrZGGz9TMo08HNxm9slWAq_LrL8Om743ZQ/viewform" width="100%" height="1749" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    </div>
+
+    <footer class="footer" style="padding-top: 50px; padding-bottom: 50px; background: grey; color: white; margin-top:40px">
+        <div id="footer" class="container">
+          <h2>Have any queries?</h2>
+          <h4>Contact us at</h4>
+          <h6>+91-8058041116 / +91-9871826106</h6>
+        </div>
+    </footer>
+</body>
+<style>
+    #main-image:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0; 
+    }
+
+    #main-image .main-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .white-heading{
+        color:white
+    }
+
+    .button{
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+    }
+
+    #gameflow , #rules , #register{
+        width:80%;
+        margin:auto;
+        margin-top:20px;
+        text-align:center
+    }
+
+    .quiz-round , .auction , .prediction-ipo{
+        text-align:left
+    }
+
+    #footer{
+        text-align:center;
+    }
+}
+</style>
+</html> 
